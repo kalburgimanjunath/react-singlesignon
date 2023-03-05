@@ -1,2 +1,5 @@
 import Login from './signup/Login';
-export { Login };
+import Forgot from './signup/Forgot';
+import Register from './signup/Register';
+import Forgot from './signup/Forgot';
+export { Login, Forgot, Register };
