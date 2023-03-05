@@ -4,10 +4,12 @@ export default function Cards({ title, data }) {
   return (
     <div>
       <h1>{title}</h1>
-      {data &&
-        data.map((item) => {
-          return <Card item={item} />;
-        })}
+      <div style={{ flexDirection: 'row', margin: 20 }}>
+        {data &&
+          data.map((item) => {
+            return <Card item={item} />;
+          })}
+      </div>
     </div>
   );
 }
